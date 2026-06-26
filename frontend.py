@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage
 from main import app
 
 st.set_page_config(
-    page_title="AI Tour Planner",
+    page_title="TravelSphere",
     page_icon="✈️",
     layout="wide"
 )
@@ -306,7 +306,7 @@ div[data-testid="stDownloadButton"] > button {
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("<div class='sidebar-title'>🌍 AI Travel Planner</div>", unsafe_allow_html=True)
+    st.markdown("<div class='sidebar-title'>🌍 TravelSphere</div>", unsafe_allow_html=True)
     st.markdown("---")
 
     thread_id = st.text_input("👤 User ID", value="aayush_user",
@@ -328,7 +328,7 @@ st.markdown("""
          alt="airplane above clouds"/>
     <div class="hero-content">
         <div class="hero-badge">✦ Multi-Agent AI System</div>
-        <div class="hero-title">✈️ AI Tour Planner</div>
+        <div class="hero-title">✈️ TravelSphere - AI Tour Planner</div>
         <div class="hero-sub">Four specialized agents work together — searching flights, hotels, building an itinerary, and delivering your perfect trip plan.</div>
     </div>
 </div>
