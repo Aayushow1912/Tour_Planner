@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage
 from main import app
 
 st.set_page_config(
-    page_title="AI Travel Booking System",
+    page_title="AI Tour Planner",
     page_icon="✈️",
     layout="wide"
 )
@@ -313,7 +313,7 @@ with st.sidebar:
                               help="Your session ID — keeps travel history across queries")
 
     st.markdown("<div class='sidebar-title'>Powered by</div>", unsafe_allow_html=True)
-    for tech in ["🔗 LangGraph", "🧠 Groq · LLaMA 3.3 70B", "🐘 PostgreSQL", "🔍 Tavily Search", "✈️ AviationStack"]:
+    for tech in ["🔗 LangGraph", "🧠 LLaMA 3.3 70B", "🐘 PostgreSQL", "🔍 Tavily Search", "✈️ AviationStack"]:
         st.markdown(f"<div class='sidebar-chip'>{tech}</div>", unsafe_allow_html=True)
 
     st.markdown("<div class='sidebar-title'>Agent Pipeline</div>", unsafe_allow_html=True)
@@ -328,7 +328,7 @@ st.markdown("""
          alt="airplane above clouds"/>
     <div class="hero-content">
         <div class="hero-badge">✦ Multi-Agent AI System</div>
-        <div class="hero-title">✈️ AI Travel Booking System</div>
+        <div class="hero-title">✈️ AI Tour Planner</div>
         <div class="hero-sub">Four specialized agents work together — searching flights, hotels, building an itinerary, and delivering your perfect trip plan.</div>
     </div>
 </div>
